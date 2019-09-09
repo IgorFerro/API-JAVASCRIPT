@@ -1,0 +1,35 @@
+Install LINT
+*npm install eslint --save-dev OU npm i -D eslint-  instala o lint
+*node_modules/.bin/eslint --init - Configurar o lint
+  - Use a Popular style guide
+  -airbnb
+  -Json
+  -Install with NPM - YES
+
+*node_modules/.bin/eslint jest.test.js - Análisa o arquivo desejado.
+*node_modules/.bin/eslint jest.test.js --fix - Corrigi alguns dos erros encontrados
+*Install eslint plugin para auto correção
+*OBS:. Pesquisar as regras exigidas através do google ou adicionar no .eslint.json comando para desabilit-la. Regras: https://eslint.org/docs/rules/
+*adicionar em package.json/scripts  "lint": "eslint src/** test/** --fix"
+* node_modules/.bin/eslint src/** test/** --fix - habilita o fix no src e na pasta teste
+* npm run lint
+
+SUPERTEST
+npm i -D -E supertest@3.3.0
+
+EXPRESS
+npm i -S -E express@4.16.4
+no cmd do projeto imiciar o servidor - node src/server.js
+
+secure mode 
+npm run secure-mode
+
+
+
+
+
+
+
+
+
+
